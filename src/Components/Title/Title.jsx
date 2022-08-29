@@ -1,8 +1,9 @@
 import React from 'react'
+import S from './Title.module.css'
 
 const Title = ({texto}) => {
   return (
-    <h1>{texto}</h1>
+    <h1 className ={S.title}> {texto}</h1>
   )
 }
 
